@@ -1,7 +1,4 @@
-### Hi there 👋
-
-
-Here are some ideas to get you started:
+### It's Aakash Bhardwaj 👋
 
 - 💻 I’m currently working on Microsoft 365 and Azure development
 - 📚 I’m currently learning Teams App development
