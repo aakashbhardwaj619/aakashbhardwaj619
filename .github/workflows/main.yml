@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on: [push]
+
+jobs:
+  gitLinkedJob:
+    runs-on: ubuntu-latest
+    name: A sample job to format ReadMe content
+    steps:
+      - name: Update ReadMe content
+        id: updateReadMe
+        uses: aakashbhardwaj619/action-gitlinked-profile-update@main
+        with:
+          LINKEDIN_TOKEN: 'test'
+      # Use the output from the `hello` step
+      - name: Get the update README
+        run: echo "${{ steps.updateReadMe.outputs.ReadMe }}"
