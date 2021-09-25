@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A sample job to format ReadMe content
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Update ReadMe content
         id: updateReadMe
         uses: aakashbhardwaj619/action-gitlinked-profile-update@main
