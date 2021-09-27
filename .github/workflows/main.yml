@@ -12,11 +12,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Update ReadMe content
+      - name: Push ReadMe content to LinkedIn Bio
         id: updateReadMe
         uses: aakashbhardwaj619/action-gitlinked-profile-update@main
         with:
           LINKEDIN_TOKEN: 'test'
-      # Use the output from the `hello` step
-      - name: Get the update README
-        run: echo "${{ steps.updateReadMe.outputs.ReadMe }}"
