@@ -16,4 +16,4 @@ jobs:
         id: updateReadMe
         uses: aakashbhardwaj619/action-gitlinked-profile-update@main
         with:
-          LINKEDIN_TOKEN: 'test'
+          LINKEDIN_TOKEN: ${{ secrets.LINKEDIN_TOKEN }}
