@@ -1,7 +1,7 @@
 ### It's Aakash Bhardwaj 👋
 
 - 💻 I’m currently working on Microsoft 365 and Azure development
-- 📚 I’m currently learning more about Azure Communication Services
+- 📚 I’m currently learning more about Azure Communication Services and Teams Interop
 - 👯 I’m looking to collaborate on Microsoft open source projects
 - ✍️ I share what I learn at [aakashbhardwaj619.github.io](https://aakashbhardwaj619.github.io/)
 - 💬 Ask me about SharePoint or Teams development, Azure Services, or Power Platform
